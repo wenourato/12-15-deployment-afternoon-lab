@@ -8,6 +8,10 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, '../index.html'))
 })
 
+app.get('/css', (req, res) => {
+    res.sendFile(path.join(__dirname, '../style.css'))
+  })
+
 const port = process.env.PORT || 4005
 
 app.listen(port, () => {console.log(`Dad?! are you there?! ... on port ${port}.`)})
