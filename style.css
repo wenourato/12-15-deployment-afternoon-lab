@@ -1,0 +1,12 @@
+h1 {
+    font-size: larger;
+    text-align: center;
+    color: rgb(220, 20, 103);
+
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    color: blueviolet;
+  }
